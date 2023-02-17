@@ -1,0 +1,15 @@
+.first p{
+    background-color: yellow;
+}
+
+.second > p{
+    background-color: green;
+}
+
+.third + p{
+    background-color: orange;
+}
+
+.fourth ~ p{
+    background-color: aqua;
+}

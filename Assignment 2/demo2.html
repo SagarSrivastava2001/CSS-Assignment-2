@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <h2 style="text-align: center;">Let's apply Different Combinators</h2>
+
+
+<div class="first">
+  <p>This is for Descendant Selector (space) </p>
+  <p>The descendant selector matches all the elements that are descendents of a specified element </p>
+</div>
+
+<span>This is a span column so the styling isn't applied on it</span>
+
+<br> <hr> 
+
+<div class = "second">
+    <p>This is for child selector (>)</p>
+    <p>The child selector selects all elements that are the children of a specified element</p>
+    <span>
+        This is a span column so the styling isn't applied on it.
+    </span>
+</div>
+
+<hr> 
+
+<div class="third">
+    <p>This is for Adjacent Sibling Selector (+)</p>
+    <p>The adjacent sibling selector selects all elements that are adjacent siblings of a specified element</p>
+</div>
+  
+  <p>This is a paragraph which is just outside the division so the styling is applied on it</p>
+  <p>But this is not immediately followed.</p>
+
+</div>
+
+<hr>
+
+<p>This is for General Sibling Selector (~)</p>
+
+<div class="fourth">
+  <p>The General sibling selector selects all elements that are sibling of a specified element.</p>
+</div>
+
+<p>This is the paragraph which is outside the divison</p>
+<p>Same with this!</p>
+
+</body>
+</html>
